@@ -10,8 +10,8 @@ function App() {
     <>
       <div>
           <h1>NOME DO BLOG</h1>
-          <div>
-            <h2>PESSOA </h2>
+          <div className='caixablog'>
+            <div>0</div> <h2>PESSOA </h2>
             <p>tesxtoooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo</p>
             <p>DD/MM/AAAA</p>
             <p>00:00</p>
