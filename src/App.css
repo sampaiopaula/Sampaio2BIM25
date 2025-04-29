@@ -21,10 +21,37 @@
 
 
 .caixablog{
-  width: 300px;
-  height: 400px;
-  padding: 10px;
-  border: rgb(255, 0, 0);
+  border: 5px solid #000000;
+  border-radius: 5px;
+  padding: 16px;
+  margin-top: 20px;
+  background-color: #fbfbfb;
+  
+}
+.texto {
+  margin: 10px 0;
+  line-height: 1.5;
+}
+.indentificaçao{
+  display: flex;
+  flex-direction: row; 
+  align-items: center; 
+  padding-left: 20px;
+  margin: 20px;
+
+
+}
+.circulo{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: aqua;
+
+
+}
+.nomeb{
+  color: #fbfbfb;
+
   
 }
 

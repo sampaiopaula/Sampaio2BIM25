@@ -9,14 +9,19 @@ function App() {
   return (
     <>
       <div>
-          <h1>NOME DO BLOG</h1>
+          <h1 className='nomeb'>NOME DO BLOG</h1>
+
+     <div>
           <div className='caixablog'>
-            <div>0</div> <h2>PESSOA </h2>
-            <p>tesxtoooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo</p>
+            <div className='indentificaçao'>
+              <div className='circulo'></div>
+            <h2>PESSOA </h2>
+            </div>
+            <p className='texto'>tesxtoooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo</p>
             <p>DD/MM/AAAA</p>
             <p>00:00</p>
           </div>
-
+      </div>
 
       </div>
     </>
